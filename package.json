@@ -7,10 +7,10 @@
     "test": "__test__",
     "src": "src"
   },
-  "scripts": {
-    "build": "npx webpack --config ./src/webpack.config.js --mode production",
-    "dev": "npx webpack --config ./src/webpack.config.js --mode development --watch",
-    "test": "npx standard && npx jest"
+ "scripts": {
+    "build": "SET NODE_OPTIONS=--openssl-legacy-provider && npx webpack --config ./src/webpack.config.js --mode production",
+    "dev": "SET NODE_OPTIONS=--openssl-legacy-provider && npx webpack --config ./src/webpack.config.js --mode development --watch",
+    "test": "SET NODE_OPTIONS=--openssl-legacy-provider && npx standard && npx jest"
   },
   "author": "githubtraining",
   "license": "MIT",
