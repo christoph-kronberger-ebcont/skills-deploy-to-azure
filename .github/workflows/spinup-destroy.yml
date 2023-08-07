@@ -8,7 +8,7 @@ env:
   IMAGE_REGISTRY_URL: ghcr.io
   AZURE_RESOURCE_GROUP: cd-with-actions
   AZURE_APP_PLAN: actions-ttt-deployment
-  AZURE_LOCATION: '"(Europe) Germany West Central"'
+  AZURE_LOCATION: '"germanywestcentral"'
   AZURE_WEBAPP_NAME: christoph-kronberger-ebcont-ttt-app
 
 jobs:
